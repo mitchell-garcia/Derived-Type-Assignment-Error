@@ -1,0 +1,20 @@
+{
+  "name": "ts-error",
+  "version": "0.0.1",
+  "description": "Error to demonstrate Typescript error for https://github.com/Microsoft/TypeScript/issues/16790",
+  "main": "lib/index",
+  "types": "lib/index",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/sequelize": "github:types/sequelize#09b3a901547bad6f39f5607d32880c56efa5b705",
+    "typescript": "2.4.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^4.2.1"
+  }
+}
